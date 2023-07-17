@@ -164,6 +164,9 @@ void main(void)
 
 	LOG_DBG("nRF5340 APP core started");
 
+	///////////////////////////////////////
+	LOG_DBG("Nick Github Test");
+
 	ret = hfclock_config_and_start();
 	ERR_CHK(ret);
 
