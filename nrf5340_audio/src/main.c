@@ -167,6 +167,10 @@ void main(void)
 	///////////////////////////////////////
 	LOG_DBG("Nick Github Test");
 
+	LOG_INF("Nick Github Test");
+
+	
+
 	ret = hfclock_config_and_start();
 	ERR_CHK(ret);
 
